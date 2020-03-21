@@ -1,5 +1,4 @@
-.navbar-brand a
-{
+.navbar-brand a{
     padding-left: 0px;
     position: relative;
 }
@@ -7,10 +6,8 @@
 color: white !important;
 font-weight: normal;
 }
-
 a{
  font-family: "futura";
-
 }
 .navbar .active{
   border-bottom: 3px solid white;
@@ -18,28 +15,23 @@ a{
   font-weight: bold;
   position: relative;
 }
-
 .navbar-toggler .icon-bar {
   margin: 5px;
   display: block;
 }
-
 .navbar{
   font-family: "futura";
   transition-duration: 1.5s;
   background-color: #242424;
   background-color: rgba(0, 0, 0, .4);
 }
-
 div{
   font-family: "futura";
 }
-
 .aboutMeContainer{
 	text-align: center;
 }
-.avatarImage
-{
+.avatarImage{
 	text-align: center;
 	padding-top: auto;
 	padding-bottom: auto;
@@ -65,7 +57,6 @@ div{
 .experienceContainerView{
   padding-bottom: -4%;
 }
-
 .experienceContainerView h6{
 	margin-bottom: 35px;
 	text-align: center;
@@ -83,18 +74,15 @@ body, html {
   margin: 0;
   position: relative;
 }
-
-.hero-text{
-  font-family: "futura";
-}
-
 br {   
     content: "";
     margin: 0em;
     display: block;
     margin-bottom: -30px; 
  }
-
+.hero-text{
+  font-family: "futura";
+}
 .hero-text h3{
   text-align: left;
   position: absolute;
@@ -111,7 +99,6 @@ br {
   background-size: cover;
   position: relative;
 }
-
 .hero-text {
   text-align: left;
   position: absolute;
@@ -125,12 +112,10 @@ br {
     margin: 0 auto;
      width: 100%;
 }
-
 .images {
     display:inline-block;
     padding: 5px;
-    width: 45%;
-  
+    width: 45%;  
 }
 .column {
   float: left;
@@ -144,7 +129,6 @@ br {
   display: table;
   clear: both;
 }
-
 .cardColumn {
   float: left;
   width: 33.33%;
@@ -153,35 +137,29 @@ br {
   display:inline-block;
   color: gray;
 }
-
 .cardRow:after {
   content: "";
   display: table;
   clear: both;
 }
-
 .cardColumn img{
   -webkit-filter: grayscale(5%);
   filter: grayscale(50%);
   align-content: center;
 }
-
 .card-body{
   background-color: #e3e3e3;
 }
-
 @media screen and (max-width: 600px) {
   .cardColumn {
     width: 100%;
-  }
 }
-
+}
 @media screen and (max-width: 600px) {
   .column {
     width: 100%;
-  }
 }
-
+}
 h3,h5{
 	text-align: center;
 	padding-top: 100px;
@@ -225,7 +203,6 @@ h3,h5{
 	color: white;
   padding-left: 50px;
 }
-
 .fa {
   padding: 20px;
   font-size: 30px;
@@ -241,13 +218,11 @@ h3,h5{
   background: #3B5998;
   color: white;
 }
-
 .fa-twitter {
   background: #55ACEE;
   color: white;
   text-decoration: none;
 }
-
 .fa-instagram {
   background: #f09433;
   color: white;
@@ -255,12 +230,10 @@ h3,h5{
   background-clip: text;
   font-size: 200px;
 }
-
 .fa-commenting-o{
   background: #3B5998;
   color: white;
 }
-
 .fa-linkedin {
   background: #0e76a8;
   color: white;
@@ -269,7 +242,6 @@ h3,h5{
 {
   min-height: 50px;
 }
-
 .navbar-brand 
 {
   height: 50px;
@@ -282,39 +254,30 @@ h3,h5{
 	display: block;
 	transition: all 0.2s;
 	margin-top: 10px
-}
- 
+} 
 .navbar-toggler {
   border: none !important;
   background: transparent !important;
   padding: 9px 10px !important;
   margin-right: 0 !important;
 }
-
 .navbar-toggler .top-bar {
   transform: translate(3px) rotate(45deg);
   transform-origin: 10% 10%;
-
 }
-
 .navbar-toggler .middle-bar {
   opacity: 0;
 }
-
 .navbar-toggler .bottom-bar {
   transform: translate(3px) rotate(-45deg);
   transform-origin: 10% 90%;
-
 }
-
 .navbar-toggler.collapsed .top-bar {
   transform: rotate(0);
 }
-
 .navbar-toggler.collapsed .middle-bar {
   opacity: 1;
 }
-
 .navbar-toggler.collapsed .bottom-bar {
   transform: rotate(0);
 }
